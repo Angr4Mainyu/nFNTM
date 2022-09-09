@@ -1,0 +1,6 @@
+nltk==3.6.5
+numpy==1.21.4
+PyYAML==6.0
+tokenizers==0.10.3
+torch==1.9.1
+torchvision==0.2.2

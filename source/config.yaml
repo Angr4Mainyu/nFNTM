@@ -1,0 +1,56 @@
+20ns:
+  dataset: '20ns'
+  batch_size: 64
+  epochs: 1200
+  threshold_1: 0.98
+  threshold_2: 0.99
+  hidden_num: 256
+  rho_max: 1.e+10
+  rho: 1.0
+  phi: 1.e+2
+  epsilon: 0.0
+  lam: 0.0 
+  learning_rate: 5.e-4
+  topic_num: 50
+  max_topic_num: 200
+  emb_type: 'glove'
+  prior_beta: 10
+  vocab_num: 1995
+
+wikitext-103:
+  dataset: 'wikitext-103'
+  batch_size: 128
+  epochs: 1200
+  threshold_1: 0.95
+  threshold_2: 0.95
+  hidden_num: 256
+  rho_max: 1.e+10
+  rho: 1.0
+  phi: 1.e+2 
+  epsilon: 0.0
+  lam: 0.0 
+  learning_rate: 5.e-4
+  topic_num: 50
+  max_topic_num: 200
+  emb_type: 'glove'
+  prior_beta: 20
+  vocab_num: 20000
+
+reuters:
+  dataset: 'reuters'
+  batch_size: 16
+  epochs: 1600
+  threshold_1: 0.92
+  threshold_2: 0.85
+  hidden_num: 256
+  rho_max: 1.e+10
+  rho: 1.0
+  phi: 1.e+2 
+  epsilon: 0.0
+  lam: 0.0 
+  learning_rate: 5.e-4
+  topic_num: 50
+  max_topic_num: 200
+  emb_type: null
+  prior_beta: 20
+  vocab_num: 2000
